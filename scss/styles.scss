@@ -5,7 +5,6 @@
 @import "uikit-rtl.min";
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-@import "font";
 
 //Thumbnails
 
@@ -106,23 +105,10 @@ ul.social-icons {
 //END
 
 h2{
-  text-align:center;
-  font-size:3em;
-  letter-spacing: 3px;
- font-family: 'Sacramento', cursive;
-    padding:10px;
-  
+    font-family: impact;
+    
+    
 }
-
-h1{
-  font-size:315pt;
-   font-family: 'impact,regular';
-  background: #FFF7AB;
-  text-align:center;
-  padding:20px;
-  color:white;
-}
-
 .me{
     max-width:20%;
     border-radius: 50%;
@@ -164,4 +150,13 @@ a{
 a:hover{
   color:#fff7ac;
   text-decoration:none;
+}
+
+h1{
+  text-align:center;
+  font-size:3em;
+  letter-spacing: 3px;
+ font-family: 'Sacramento', cursive;
+    padding:10px;
+  
 }
