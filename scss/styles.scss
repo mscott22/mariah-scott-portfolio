@@ -103,11 +103,14 @@ ul.social-icons {
 
 
 //END
+
 figure{
     margin: 0 auto;
 }
 img{
-    max-width: 250px;
+    max-width: 300px;
+    display: inline;
+
     
 }
 
@@ -116,6 +119,7 @@ img{
 }
 .footer{
     position: absolute;
+     margin-top: 20px;
 }
 h1{
     font-size:230pt;
