@@ -103,11 +103,20 @@ ul.social-icons {
 
 
 //END
-
-body{
-    background: red;
+figure{
+    margin: 0 auto;
+}
+img{
+    max-width: 250px;
+    
 }
 
+.pictures{
+    max-width: 10%;
+}
+.footer{
+    position: absolute;
+}
 h1{
     font-size:230pt;
    font-family: impact;
