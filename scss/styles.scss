@@ -103,19 +103,24 @@ ul.social-icons {
 
 
 //END
+body{
+background: url("http://www.teiconsultinggroup.com/wp-content/uploads/2016/12/white-crumpled-abstract-background_MJJSlyvO_L.jpg");
+    }
 
 .lg-toolbar .lg-icon, .lg-actions .lg-next, .lg-actions .lg-prev,#lg-counter{
     color:#fff7ac;
 }
-.newspaper{
-    max-width: 50%;
-    margin: 0 auto;
+
+figure{
+    text-align: center;
 }
+
 img{
-    display: flex;
-    max-width: 75%;
+    max-width: 15%;
     align-content: center;
     margin: 0 auto;
+    border: 2px solid black;
+    
 
 }
 figcaption{
@@ -127,22 +132,14 @@ figcaption{
     
 }
 
-.poster{
-    border: 2px solid black;
-}
 
-
-.footer{
-    position: absolute;
-}
 h1{
-    font-size:230pt;
+    font-size:150pt;
    font-family: impact;
   background: #FFF7AB;
   text-align:center;
   padding:20px;
   color:white;
-    display: flex;
     
 }
 h3{
@@ -150,16 +147,11 @@ h3{
     color:black;
 }
 
-.posters{
-    display: flex;
-    flex-direction: row;
-    
-}
 
 .headerbar{
   background-color: black;
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
   
 }
 
