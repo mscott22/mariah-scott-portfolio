@@ -104,22 +104,33 @@ ul.social-icons {
 
 //END
 
-figure{
+.newspaper{
+    max-width: 50%;
     margin: 0 auto;
 }
 img{
-    max-width: 300px;
-    display: inline;
+    display: flex;
+    max-width: 75%;
+    align-content: center;
+    margin: 0 auto;
 
+}
+figcaption{
+    font-family: avenir;
+    color:black;
+    border: 2px solid black;
+    font-size: 1em;
+    padding: 30px;
     
 }
 
-.pictures{
-    max-width: 10%;
+.poster{
+    border: 2px solid black;
 }
+
+
 .footer{
     position: absolute;
-     margin-top: 20px;
 }
 h1{
     font-size:230pt;
@@ -128,6 +139,18 @@ h1{
   text-align:center;
   padding:20px;
   color:white;
+    display: flex;
+    
+}
+h3{
+    font-weight: bold;
+    color:black;
+}
+
+.posters{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .headerbar{
